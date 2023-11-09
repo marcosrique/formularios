@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet - Abreviações</title>
+</head>
+<body>
+    <!-- child: usa o operador > -->
+    <!-- div>ul>li = vai produzir -->
+    <!-- lembrando que se o emmet estiver desabilidade basta digitar as teclas de atalho = ctrl + barra de espaço -->
+    <div>
+        <ul>
+            <li></li>
+        </ul>
+    </div>
+
+    <!-- div+p+bq = vai produzir -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- div+div>p>span>em = vai produzir -->
+    <div>
+
+    </div>
+    <div>
+        <p>
+            <span>
+                <em>
+
+                </em>
+            </span>
+        </p>
+    </div>
+
+
+    <!-- div+div>p>span+em^^bq = vai produzir -->
+    <div>
+
+    </div>
+    <div>
+        <p>
+            <span>
+
+            </span>
+
+            <em>
+
+            </em>
+        </p>
+    </div>
+    <blockquote>
+
+    </blockquote>
+
+    <!-- ul>li*5 = vai produzir (multiplicação de itens) -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!-- ul>li*5>a = vai produzir (multiplicação de itens) -->
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+
+
+    <!-- div>header>ul>li*2>a^^^footer>p = vai produzir -->
+    <div>
+        <header>
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </header>
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+
+
+    <!-- table>(tr>th*5)+tr*9>td*5 -->
+    <table>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- table#tabelaPrincipal.tabela>(tr.linha.cabecalhos>th*5)+tr.linha.infos*9>td.coluna*5 = vai produzir 
+        (obs): #tabelaPrincipal - vai produzir um id e .linha - vai produzir a classe linha  -->
+
+        <table id="tabelaPrincipal" class="tabela">
+            <tr class="linha cabecalhos">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+        </table>
+
+        <!-- table#tabelaPrincipal.tabela>(tr.linha.cabecalhos>th*5)+(tr.linha.infos*9>td.coluna*5)+tr.linha.infos>td.coluna*3+td.coluna[colspan=2] -->
+        <table id="tabelaPrincipal" class="tabela">
+            <tr class="linha cabecalhos">
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+            </tr>
+            <tr class="linha infos">
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna"></td>
+                <td class="coluna" colspan="2"></td>
+            </tr>
+        </table>
+
+</body>
+</html>

@@ -9,6 +9,47 @@
 <body>
    <form action="">
 
+    <div class="controle-form">
+        <label for="pais">País:</label>
+        <select id="pais">
+            <option value="AF">Afeganistão</option>
+            <option value="BR" selected>Brasil</option>
+            <option value="BU">Butão</option>
+            <option value="CA">Canadá</option>
+            <option value="PA">Paraguai</option>
+            <option value="US">Estados Unidos</option>
+            <option value="IR">Irã</option>
+        </select>
+    </div>
+
+    <div class="controle-form">
+        <label for="volume">Volume:</label>
+        <input type="range" id="volume" min="0" max="100" step="25" >
+    </div>
+    
+        
+    <div class="controle-form">
+        <label for="UF">Lista de Estados Brasileiros</label>
+        <input list="listaUF" name="listaUF" id="UF">
+    </div>
+
+    <fieldset>
+        <legend>Turno:</legend>
+        <div class="controle-form">
+            <input type="radio" id="manha" name="turno">
+            <label for="manha">Manhã</label>
+         </div>
+         <div class="controle-form">
+            <input type="radio" id="tarde" name="turno">
+            <label for="tarde">Tarde</label>
+         </div>
+         <div class="controle-form">
+            <input type="radio" id="noite" name="turno">
+            <label for="noite">Noite</label>
+         </div>    
+    </fieldset>
+    
+
     <!-- readonly atributo para não editar o código - por si só não precisa de valor, o valor é ele mesmo -->
     <div class="controle-form">
         <label for="codigo">Código:</label>
@@ -96,7 +137,35 @@
             <button type="button" disabled>Desabilitado:</button>
         </div>
 
-        
+        <datalist id="listaUF">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </datalist> 
         
         
 
